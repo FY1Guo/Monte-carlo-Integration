@@ -1,0 +1,5 @@
+
+# inverse CDF
+
+# rejection sampling
+
