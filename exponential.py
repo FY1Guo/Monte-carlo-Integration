@@ -41,4 +41,5 @@ for sampler, name in [(inverse_cdf, "inverse-CDF"), (rej_exp01, "rejection")]:
     plt.legend()
     plt.xlabel("x")
     plt.ylabel("density")
+    plt.savefig(f"exp_{name}.png")
 plt.show()
